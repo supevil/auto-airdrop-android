@@ -39,8 +39,15 @@ jobs:
     - name: Make gradlew executable
       run: chmod +x ./gradlew
       
+    - name: Download Gradle Wrapper
+      run: |
+        curl -L https://services.gradle.org/distributions/gradle-8.5-bin.zip -o gradle.zip
+        unzip -q gradle.zip
+        rm gradle.zip
+        chmod +x gradle-8.5/bin/gradle
+        
     - name: Build with Gradle
-      run: ./gradlew assembleDebug
+      run: ./gradle-8.5/bin/gradle assembleDebug
       
     - name: Upload APK
       uses: actions/upload-artifact@v4
