@@ -1,0 +1,16 @@
+自动抢空投 Android APK 项目 
+ 
+项目状态： 
+✅ 项目结构完整 
+✅ Java环境已配置 
+⚠️  需要Android SDK进行完整编译 
+ 
+编译选项： 
+1. 安装Android Studio（推荐） 
+2. 使用GitHub Actions在线编译 
+3. 下载Android SDK Command Line Tools 
+ 
+详细说明请查看： 
+- APK打包指南.md 
+- GitHub线上打包指南.md 
+- Android Studio导入指南.md 

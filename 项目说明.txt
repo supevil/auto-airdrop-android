@@ -1,0 +1,47 @@
+自动抢空投 Android 项目说明
+=====================================
+
+📱 这是什么？
+这是一个Android应用项目，不是Windows exe程序。
+
+📦 项目包含什么？
+✅ 完整的Android项目结构
+✅ 主界面Activity (MainActivity.kt)
+✅ 无障碍服务 (AutoClickService.kt)
+✅ 截图工具 (ScreenCapture.kt)
+✅ 验证码识别 (CaptchaSolver.kt)
+✅ 用户界面和资源文件
+✅ 配置文件
+
+🚀 如何生成APK？
+方案1 - 使用Android Studio（推荐）：
+1. 安装Android Studio
+2. 打开这个项目文件夹
+3. 点击 Build → Build APK(s)
+4. 等待编译完成
+5. 得到 app-debug.apk 文件
+
+方案2 - 使用在线编译：
+1. 上传项目到GitHub
+2. 使用GitHub Actions自动编译
+3. 下载编译好的APK
+
+📱 如何使用APK？
+1. 将APK文件安装到Android手机或模拟器
+2. 开启无障碍服务权限
+3. 配置打码平台API
+4. 开始使用自动抢空投功能
+
+⚠️ 重要说明：
+- 这不是exe文件，是Android APK
+- 需要在Android设备上运行
+- 需要编译后才能使用
+- 建议使用Android Studio编译
+
+🔧 如果你想要exe版本：
+我可以为你创建一个Windows版本的自动抢空投程序，使用C#或Python开发。
+
+你希望：
+1. 继续使用Android版本（需要编译成APK）
+2. 创建Windows exe版本
+3. 了解更多Android开发知识

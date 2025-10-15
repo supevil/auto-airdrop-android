@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="app_name">自动抢空投</string>
+    <string name="settings">设置</string>
+    <string name="accessibility_service_description">自动抢空投服务，用于自动识别验证码并执行点击操作</string>
+    
+    <!-- 权限相关 -->
+    <string name="permission_overlay_title">悬浮窗权限</string>
+    <string name="permission_overlay_message">需要悬浮窗权限来显示服务状态</string>
+    <string name="permission_accessibility_title">无障碍服务</string>
+    <string name="permission_accessibility_message">需要无障碍服务权限来执行自动点击</string>
+    
+    <!-- 状态信息 -->
+    <string name="status_running">运行中</string>
+    <string name="status_stopped">已停止</string>
+    <string name="status_error">错误</string>
+    
+    <!-- 日志信息 -->
+    <string name="log_start_automation">开始自动化流程</string>
+    <string name="log_stop_automation">停止自动化流程</string>
+    <string name="log_screenshot_success">截图成功</string>
+    <string name="log_screenshot_failed">截图失败</string>
+    <string name="log_captcha_recognized">验证码识别成功</string>
+    <string name="log_captcha_failed">验证码识别失败</string>
+    <string name="log_click_success">点击执行成功</string>
+    <string name="log_click_failed">点击执行失败</string>
+</resources>
